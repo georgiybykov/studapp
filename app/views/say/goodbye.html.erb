@@ -1,2 +1,29 @@
-<h1>Say#goodbye</h1>
-<p>Find me in app/views/say/goodbye.html.erb</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BYEtle page!</title>
+</head>
+<body>
+  <h1>Goodbye!</h1>
+</body>
+<p>
+  It is very pleasure that you visited us!
+</p>
+<p>
+  To say <%= link_to "hello", say_hello_path %> one more time!
+</p>
+</html>
+
+
+
+
+<p> <%= 1+2 %> </p>
+<p> <%= "cow"+"boy" %> </p>
+<p> <%= 1.hour.from_now %> </p>
+
+
+<p>
+<% for file in @files %>
+<ul> file name is: <%= file %> </ul>
+<% end %>
+</p>
